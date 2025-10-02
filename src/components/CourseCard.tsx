@@ -10,6 +10,9 @@ interface CourseCardProps {
 }
 
 export const CourseCard = ({ course }: CourseCardProps) => {
+  const feesNgn = course.fees_usd * 1500;
+  const formattedFees = `$${course.fees_usd.toLocaleString()} per year (~₦${feesNgn.toLocaleString()})`;
+
   return (
     <Card className="group h-full transition-all duration-300 hover:shadow-[var(--shadow-hover)] border-border/50 bg-gradient-to-b from-card to-card/95">
       <CardHeader>
@@ -31,10 +34,10 @@ export const CourseCard = ({ course }: CourseCardProps) => {
           <Clock className="w-4 h-4 text-secondary" />
           <span>{course.duration}</span>
         </div>
-        <div className="flex items-center gap-2">
-          <DollarSign className="w-4 h-4 text-accent" />
-          <Badge variant="secondary" className="font-semibold">
-            {course.fees}
+        <div className="flex items-start gap-2">
+          <DollarSign className="w-4 h-4 text-accent mt-0.5" />
+          <Badge variant="secondary" className="font-semibold text-xs leading-relaxed">
+            {formattedFees}
           </Badge>
         </div>
       </CardContent>

@@ -8,6 +8,9 @@ import { ArrowLeft, MapPin, Clock, DollarSign, GraduationCap, Building2 } from "
 const CourseDetail = () => {
   const { id } = useParams<{ id: string }>();
   const course = courses.find((c) => c.id === Number(id));
+  
+  const feesNgn = course ? course.fees_usd * 1500 : 0;
+  const formattedFees = course ? `$${course.fees_usd.toLocaleString()} per year (~₦${feesNgn.toLocaleString()})` : '';
 
   if (!course) {
     return (
@@ -80,8 +83,8 @@ const CourseDetail = () => {
                 <DollarSign className="w-5 h-5 text-accent mt-0.5" />
                 <div>
                   <p className="text-xs text-muted-foreground font-medium mb-1">Tuition Fees</p>
-                  <Badge variant="secondary" className="font-semibold">
-                    {course.fees}
+                  <Badge variant="secondary" className="font-semibold text-xs leading-relaxed">
+                    {formattedFees}
                   </Badge>
                 </div>
               </div>
