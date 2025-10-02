@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Computer Science BSc",
+    "university": "University of Lagos",
+    "duration": "4 years",
+    "location": "Lagos, Nigeria",
+    "fees": "$1,500/year",
+    "description": "A comprehensive undergraduate program covering programming, data structures, algorithms, and computer systems."
+  },
+  {
+    "id": 2,
+    "title": "Mechanical Engineering BEng",
+    "university": "Obafemi Awolowo University",
+    "duration": "5 years",
+    "location": "Ile-Ife, Nigeria",
+    "fees": "$1,200/year",
+    "description": "Focuses on the design, analysis, and manufacturing of mechanical systems with hands-on projects."
+  },
+  {
+    "id": 3,
+    "title": "Business Administration BSc",
+    "university": "Covenant University",
+    "duration": "4 years",
+    "location": "Ota, Nigeria",
+    "fees": "$2,000/year",
+    "description": "Prepares students for leadership roles in business with courses on finance, marketing, and management."
+  },
+  {
+    "id": 4,
+    "title": "Electrical & Electronics Engineering BEng",
+    "university": "Ahmadu Bello University",
+    "duration": "5 years",
+    "location": "Zaria, Nigeria",
+    "fees": "$1,400/year",
+    "description": "Teaches power systems, electronics, and telecommunications with practical lab experience."
+  },
+  {
+    "id": 5,
+    "title": "Medicine and Surgery MBBS",
+    "university": "University of Ibadan",
+    "duration": "6 years",
+    "location": "Ibadan, Nigeria",
+    "fees": "$3,000/year",
+    "description": "Comprehensive program in medical sciences, clinical skills, and healthcare practice."
+  },
+  {
+    "id": 6,
+    "title": "Law LLB",
+    "university": "University of Benin",
+    "duration": "5 years",
+    "location": "Benin City, Nigeria",
+    "fees": "$1,800/year",
+    "description": "Covers constitutional, criminal, and corporate law with practical exposure to legal practice."
+  },
+  {
+    "id": 7,
+    "title": "Architecture BSc",
+    "university": "University of Nigeria, Nsukka",
+    "duration": "5 years",
+    "location": "Nsukka, Nigeria",
+    "fees": "$1,600/year",
+    "description": "Blends creativity and technical skills to train architects for residential and commercial projects."
+  },
+  {
+    "id": 8,
+    "title": "Mass Communication BA",
+    "university": "Lagos State University",
+    "duration": "4 years",
+    "location": "Lagos, Nigeria",
+    "fees": "$1,300/year",
+    "description": "Focuses on journalism, media studies, and digital communication technologies."
+  },
+  {
+    "id": 9,
+    "title": "Civil Engineering BEng",
+    "university": "Federal University of Technology, Akure",
+    "duration": "5 years",
+    "location": "Akure, Nigeria",
+    "fees": "$1,500/year",
+    "description": "Covers structural, environmental, and transportation engineering with hands-on project work."
+  },
+  {
+    "id": 10,
+    "title": "Economics BSc",
+    "university": "Babcock University",
+    "duration": "4 years",
+    "location": "Ogun State, Nigeria",
+    "fees": "$2,200/year",
+    "description": "Provides knowledge in microeconomics, macroeconomics, and econometrics for business and policy-making."
+  }
+]
