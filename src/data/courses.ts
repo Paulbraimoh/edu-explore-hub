@@ -100,3 +100,4 @@ export const courses: Course[] = [
     description: "Teaches power systems, electronics, and telecommunications with practical lab experience."
   }
 ];
+
